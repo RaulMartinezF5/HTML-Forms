@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/styles/style.css" />
+    <title>HTML FORMS</title>
+  </head>
+  <body>
+    <h1>GeeksforGeeks Survey Form</h1>
+    <form action="">
+      <label for="name_user">Name</label>
+      <input
+        type="text"
+        name="name_user"
+        class="user-input"
+        placeholder="Enter your name"
+      />
+
+      <label for="email_user">Email</label>
+      <input
+        type="email"
+        name="email_user"
+        class="user-input"
+        placeholder="Enter your email"
+      />
+
+      <label for="email_user">Age</label>
+      <input
+        type="text"
+        name="email_user"
+        class="user-input"
+        placeholder="Enter your Age"
+      />
+
+      <label for="">which option best describe you?</label>
+      <select name="" class="user-input">
+        <option value="student">student</option>
+        <option value="Employed">Employed</option>
+        <option value="unemployed">unemployed</option>
+      </select>
+      <label for="">Would you recommend GeeksforGeeks to a freind?</label>
+      <div class="choose-container">
+        <input type="radio" class="user-choose" />
+        <label for="" class="user-choose">Yes</label>
+      </div>
+      <div class="choose-container">
+        <input type="radio" class="user-choose" />
+        <label for="" class="user-choose">No</label>
+      </div>
+      <div class="choose-container">
+        <input type="radio" class="user-choose" />
+        <label for="" class="user-choose">Maybe</label>
+      </div>
+
+      <label for=""
+        >Languages and Frameworks known (check all that apply)</label
+      >
+      <div class="choose-container">
+        <input type="checkbox" class="user-choose" />
+        <label for="">C</label>
+      </div>
+      <div class="choose-container">
+        <input type="checkbox" class="user-choose" />
+        <label for="">C++</label>
+      </div>
+      <div class="choose-container">
+        <input type="checkbox" class="user-choose" />
+        <label for="">C#</label>
+      </div>
+      <div class="choose-container">
+        <input type="checkbox" class="user-choose" />
+        <label for="">JAVA</label>
+      </div>
+      <div class="choose-container">
+        <input type="checkbox" class="user-choose" />
+        <label for="">Python</label>
+      </div>
+      <div class="choose-container">
+        <input type="checkbox" class="user-choose" />
+        <label for="">JavaScript</label>
+      </div>
+      <div class="choose-container">
+        <input type="checkbox" class="user-choose" />
+        <label for="">React</label>
+      </div>
+      <div class="choose-container">
+        <input type="checkbox" class="user-choose" />
+        <label for="">Angular</label>
+      </div>
+      <div class="choose-container">
+        <input type="checkbox" class="user-choose" />
+        <label for="">Django</label>
+      </div>
+      <div class="choose-container">
+        <input type="checkbox" class="user-choose" />
+        <label for="">Spring</label>
+      </div>
+
+      <label for="">Any comments or suggestions</label>
+      <div class="textarea">
+        <textarea name="" id="" cols="90" rows="5"></textarea>
+      </div>
+      <button>Submit</button>
+    </form>
+  </body>
+</html>

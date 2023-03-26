@@ -1,0 +1,47 @@
+body {
+  background-color: #00b455;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+body form {
+  background-color: white;
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  margin: 20px 0;
+}
+body form label {
+  margin: 10px 10px 0px 10px;
+}
+body form .user-input {
+  margin: 10px 10px 0px 10px;
+  height: 2rem;
+}
+body form .user-choose {
+  width: 14px;
+  margin-left: 20px;
+}
+body form .choose-container {
+  display: flex;
+  align-items: baseline;
+}
+body form .textarea {
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+}
+body form .textarea textarea {
+  margin: 0;
+}
+body form button {
+  width: 70%;
+  align-self: center;
+  background-color: #00b455;
+  margin: 40px;
+  height: 3rem;
+  font-size: 20px;
+}/*# sourceMappingURL=style.css.map */
